@@ -1,0 +1,103 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPKAcV4lVXzeoSUF4g+vdej",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/keisycascante/QM206/blob/main/Tarea1.csv\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Diccionario de elementos"
+      ],
+      "metadata": {
+        "id": "NvlU1LU2XJH9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tYOi9vmbW58k",
+        "outputId": "5278a3ab-24c9-4708-fe54-eb334dc872f4"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[{'simbolo': 'H', 'NumAtom': 1, 'masa': 1.008}, {'simbolo': 'He', 'NumAtom': 2, 'masa': 4.0026}, {'simbolo': 'Li', 'NumAtom': 3, 'masa': 6.03}, {'simbolo': 'Be', 'NumAtom': 4, 'masa': 9.0122}, {'simbolo': 'B', 'NumAtom': 5, 'masa': 10.811}, {'simbolo': 'C', 'NumAtom': 6, 'masa': 12.0111}, {'simbolo': 'N', 'NumAtom': 7, 'masa': 14.0067}, {'simbolo': 'O', 'NumAtom': 8, 'masa': 15.9994}, {'simbolo': 'F', 'NumAtom': 9, 'masa': 18.9984}, {'simbolo': 'Ne', 'NumAtom': 10, 'masa': 20.183}, {'simbolo': 'Na', 'NumAtom': 11, 'masa': 22.9898}, {'simbolo': 'Mg', 'NumAtom': 12, 'masa': 24.312}, {'simbolo': 'Al', 'NumAtom': 13, 'masa': 26.9815}, {'simbolo': 'Si', 'NumAtom': 14, 'masa': 28.086}, {'simbolo': 'P', 'NumAtom': 15, 'masa': 30.9738}, {'simbolo': 'S', 'NumAtom': 16, 'masa': 32.064}, {'simbolo': 'Cl', 'NumAtom': 17, 'masa': 35.453}, {'simbolo': 'Ar', 'NumAtom': 18, 'masa': 39.948}, {'simbolo': 'K', 'NumAtom': 19, 'masa': 39.102}, {'simbolo': 'Ca', 'NumAtom': 20, 'masa': 40.08}]\n"
+          ]
+        }
+      ],
+      "source": [
+        "elementos=[]\n",
+        "elem={\"simbolo\":\"H\",\"NumAtom\":1,\"masa\":1.008}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"He\",\"NumAtom\":2,\"masa\":4.0026}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Li\",\"NumAtom\":3,\"masa\":6.030}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Be\",\"NumAtom\":4,\"masa\":9.0122}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"B\",\"NumAtom\":5,\"masa\":10.811}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"C\",\"NumAtom\":6,\"masa\":12.0111}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"N\",\"NumAtom\":7,\"masa\":14.0067}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"O\",\"NumAtom\":8,\"masa\":15.9994}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"F\",\"NumAtom\":9,\"masa\":18.9984}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Ne\",\"NumAtom\":10,\"masa\":20.183}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Na\",\"NumAtom\":11,\"masa\":22.9898}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Mg\",\"NumAtom\":12,\"masa\":24.312}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Al\",\"NumAtom\":13,\"masa\":26.9815}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Si\",\"NumAtom\":14,\"masa\":28.086}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"P\",\"NumAtom\":15,\"masa\":30.9738}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"S\",\"NumAtom\":16,\"masa\":32.064}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Cl\",\"NumAtom\":17,\"masa\":35.453}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Ar\",\"NumAtom\":18,\"masa\":39.948}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"K\",\"NumAtom\":19,\"masa\":39.102}\n",
+        "elementos.append(elem)\n",
+        "elem={\"simbolo\":\"Ca\",\"NumAtom\":20,\"masa\":40.08}\n",
+        "elementos.append(elem)\n",
+        "print(elementos)"
+      ]
+    }
+  ]
+}
